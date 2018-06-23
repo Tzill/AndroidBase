@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="weatheractivity">Жизненный цикл WeatherActivity!</string>
+    <string name="country">Moscow</string>
+</resources>
