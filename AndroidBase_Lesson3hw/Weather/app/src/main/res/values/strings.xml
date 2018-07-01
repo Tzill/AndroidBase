@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="weatheractivity">Жизненный цикл WeatherActivity!</string>
+    <string name="country"></string>
+    <string name="cretae_action">Create action</string>
+    <string name="fullname">Fullname</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="city">City</string>
+</resources>
