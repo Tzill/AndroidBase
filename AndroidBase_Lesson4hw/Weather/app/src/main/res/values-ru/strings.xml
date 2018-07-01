@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="weatheractivity">Жизненный цикл WeatherActivity!</string>
+    <string name="country">Москва</string>
+    <string name="create_action">Создать Action</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Открыть navigation drawer</string>
+    <string name="navigation_drawer_close">Закрыть navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="settings">Настройки</string>
+    <string name="about">Описание</string>
+    <string name="fullname">Полное имя</string>
+    <string name="name">Иванов Иван</string>
+</resources>
