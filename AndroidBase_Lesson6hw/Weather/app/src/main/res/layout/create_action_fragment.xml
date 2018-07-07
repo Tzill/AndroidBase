@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <EditText
+        android:id="@+id/et_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_padding"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/default_padding"
+        android:layout_marginTop="@dimen/default_padding"
+        android:hint="@string/country" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_padding"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_below="@id/et_country"
+        android:layout_marginStart="@dimen/default_padding"
+        android:hint="Name" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_marginStart="@dimen/default_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Confirm"
+
+        android:layout_below="@id/et_name"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show pressure"
+        android:layout_marginStart="@dimen/default_padding"
+        android:layout_below="@id/confirm_button"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show humidity"
+        android:layout_marginStart="@dimen/default_padding"
+        android:layout_below="@id/checkBox_pressure"/>
+
+</RelativeLayout>
